@@ -52,7 +52,7 @@ def get_equipment(equipment_id):
     return None
 
 
-def is_bookable(equipment):
+def is_bookable_equipment(equipment):
     return equipment is not None and equipment.get("status") != "maintenance"
 
 
